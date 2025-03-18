@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="./scripts.js" defer></script>
+  <title>Conversor de moedas - DevWH</title>
+</head>
+
+<body>
+
+  <img class="logo" src="./assets/logo.png" alt="logo do conversor de moedas" />
+
+  <main>
+
+    <label>
+      Converter <b>de</b>:
+      <select class="currency-select-up">
+        <option value="BRL">R$ Real (BRL)</option>
+        <option value="USD">US$ Dólar (USD)</option>
+        <option value="EUR">€ Euro (EUR)</option>
+        <option value="GBP">£ Libra esterlina (GBP)</option>
+        <option value="BTC">₿ Bitcoin (BTC)</option>
+      </select>
+    </label>
+
+    <label>
+      Converter <b>para</b>:
+      <select class="currency-select">
+        <option value="BRL">R$ Real (BRL)</option>
+        <option value="USD">US$ Dólar (USD)</option>
+        <option value="EUR">€ Euro (EUR)</option>
+        <option value="GBP">£ Libra esterlina (GBP)</option>
+        <option value="BTC">₿ Bitcoin (BTC)</option>
+      </select>
+    </label>
+    <p class="label">Digite o valor a converter:</p>
+
+    <Input class="input-currency" placeholder="Exemplo: 123.45"></Input>
+
+    <button class="convert-button">Converter</button>
+
+    <section>
+      <div class="currency-box">
+        <img class="currency-img-up" src="./assets/Real.png" alt="Real brasileiro" />
+        <p class="currency" id="name-currency">Real (BRL)</p>
+        <p class="currency-value-to-be-converted">R$0,00</p>
+      </div>
+      <img class="converter" src="./assets/money.png" alt="seta de conversão">
+      <div class="currency-box">
+        <img class="currency-img" src="./assets/dolar.png" alt="Dolar americano" />
+        <p class="currency" id="currency-name">Dólar (USD)</p>
+        <p class="converted-currency-value">$0,00</p>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
