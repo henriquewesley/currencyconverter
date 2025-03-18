@@ -142,7 +142,6 @@ function changeCurrencyUp() {
     currencyImgUp.src = "./assets/bitcoin.png"
   }
   convertValue()
-  changeCurrency()
 }
 
 selectCurrency.addEventListener("change", changeCurrencyUp)
