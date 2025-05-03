@@ -69,3 +69,13 @@ Se você tiver alguma sugestão de melhoria ou encontrar algum bug, sinta-se à 
 ## Autor
 
 Wesley Henrique ®
+
+## Contato
+
+Se você tiver alguma oportunidade de trabalho ou gostaria de discutir este projeto, sinta-se à vontade para entrar em contato:
+
+* https://www.linkedin.com/in/henriquewesley/
+* whenfeof@gmail.com
+* https://wesleyhenriqueportifolio.vercel.app/
+
+Agradeço o seu interesse!
